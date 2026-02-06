@@ -6,8 +6,10 @@ import Navbar from './components/Navbar';
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col min-w-screen" style={{ backgroundImage: "url('/villagerevivalinline1.png')" }}>
-        <Navbar />
+<div 
+  className="min-w-screen min-h-screen flex flex-col" 
+
+>        <Navbar />
         <main className=" flex">
           <div className="w-full max-w-7xl px-4">
             <AppRoutes />
@@ -17,3 +19,4 @@ export default function App() {
     </Router>
   );
 }
+
