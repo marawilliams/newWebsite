@@ -3,7 +3,7 @@
  import AlbumGallery from '../components/AlbumGallery.tsx';
 
  const Home: React.FC = () => (
-   <div>
+   <div className="bg-primary">
      {/* <img className="z-10 absolute top-[60vh] left-[48.5vw] -translate-x-1/2 -translate-y-1/2 w-[40vw]" src="/crate.png" alt="crate"/> */}
      {/* <div className="relative z-20 left-[-9vw] bottom-[-4vw]">     
         <AlbumGallery/>
