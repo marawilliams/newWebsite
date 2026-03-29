@@ -1,0 +1,63 @@
+.section {
+  width: 100vw;   
+  height: 45vw;             /* scales to full viewport width */
+  aspect-ratio: 1432 / 691;                /* proportional height (691px ≈ 48% of 1440px viewport) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.5vw auto;          /* 50px → 3.5vw */
+  border-radius: 0.6vw;        /* 8px → 0.6vw */
+  text-align: center;
+  position: relative;
+}
+
+.header {
+  font-size: 2.2vw;            /* 32px → 2.2vw */
+  margin-bottom: 1.4vw;        /* 20px → 1.4vw */
+}
+
+.image {
+  width: 22.8vw;               /* 329px → 22.8vw */
+  height: auto;
+  position: absolute;
+  top: 6vw;                 /* 160px → 11.1vw */
+  right: 6.1vw;                /* 88px → 6.1vw */
+  z-index: 1;
+}
+
+.rectangle {
+  position: absolute;
+  width: 20.7vw;               /* 298px → 20.7vw */
+  height: 32.7vw;              /* 471px → 32.7vw */
+  top: 8vw;                   /* 202px → 14vw */
+  right: 9.3vw;                /* 134px → 9.3vw */
+  background-color: #f69833;
+  border-radius: 4.2vw;        /* 60px → 4.2vw */
+}
+
+.intro {
+  position: absolute;
+  justify-content: flex-start;
+  text-align: left;
+  width: 43vw;               /* 895px → 62.2vw */
+  color: #f69833;
+  font-size: 2.4vw;            /* 32px → 2.2vw */
+  height: auto;
+  top: 16.1vw;                 /* 290px → 20.1vw */
+  left: 5.9vw;                 /* 100px → 6.9vw */
+  padding-bottom:15px;
+}
+
+.introparagraph {
+  position: absolute;
+  justify-content: flex-start;
+  text-align: left;
+  width: 60vw;               /* 895px → 62.2vw */
+  color: #f69833;
+  font-size: 2.2vw;            /* 32px → 2.2vw */
+  height: auto;
+  top: 20.6vw;                 /* 340px → 23.6vw */
+  left: 5.9vw;                 /* 100px → 6.9vw */
+  overflow-wrap: break-word;
+  padding-right: 2vw;
+}
